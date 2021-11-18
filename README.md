@@ -10,7 +10,7 @@ Imagenes del mapa del TEC y el grafo generado:
 
 ## Competencias a evaluar
 
-###SICT0301B: Evalúa los componentes
+### SICT0301B: Evalúa los componentes
 
 **Presenta Casos de Prueba correctos y completos para todas las funciones y procedimientos del programa**
 
