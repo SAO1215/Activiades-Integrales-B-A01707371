@@ -5,8 +5,8 @@ La finalidad de este proyecto es implementar grafos por medio de un programa que
 
 Imagenes del mapa del TEC y el grafo generado:
 
-![Alt text]()
-![Alt text]()
+![Alt text](https://github.com/SAO1215/Activiades-Integrales-B-A01707371/blob/main/mapa_TEC.png)
+![Alt text](https://github.com/SAO1215/Activiades-Integrales-B-A01707371/blob/main/graph.png)
 
 ## Competencias a evaluar
 
