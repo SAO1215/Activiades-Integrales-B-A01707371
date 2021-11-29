@@ -30,7 +30,7 @@ Para esta situación el algoritmo de búsqueda seleccionado fue un BFS, a difere
 
 **Implementa mecanismos de lectura de archivos correctos y útiles dentro de un programa.** 
 
-Se leen los datos del archivo "mapa.txt", este proceso se encuentra en la funcion _cargarLista()_, implementada en la linea 42 de _main.cpp_.
+Se leen los datos del archivo "mapa.txt", este proceso se encuentra en la funcion _cargarLista()_, implementada en la linea 37 de _main.cpp_.
 
 ## Consideraciones
 - Solo ingresar los numeros que corresponden a cada lugar, no el nombre.
