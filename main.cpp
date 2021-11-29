@@ -5,9 +5,8 @@
 using namespace std;
 
 void bienvenida(){
-  int start, goal;
   cout << "\n=====================¿TE PERDIS-TEC?=====================" << endl;
-  cout << "Si es tu primera vez dentro del TEC o tu guia te estaba\nsiguiendo a ti y no tu a el como el sentido comun manda."<<endl;
+  cout << "Si es tu primera vez dentro del TEC o tu guia te estaba siguiendo a ti y no tu a el como el sentido comun manda."<<endl;
   cout << "No te preocupes, espero que esta guia te resulte util."<<endl;
   cout << "\nAsignamos un numero a cada locación del area de profesional:"<<endl;
 }
@@ -36,7 +35,6 @@ int main(int argc, char* argv[]) {
   int origen, meta;
 
   mapa.cargarLista("mapa.txt", 16, 67);
-  //mapa.loadGraphMat("mapa.txt", 16, 100);
 
   int opc;
   bienvenida();

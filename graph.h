@@ -38,13 +38,13 @@ public:
 		Graph(int);
 		Graph();
 		void addEdgeAdjMatrix(int, int);
-    void añadirLista(int, int);
+    void addLista(int, int);
 		string printAdjMat();
     string printadjLista();
     string cerca(int);
 		bool contains(list<int>, int);
 
-    //Metodos tarea
+    //Metodos
     void cargarLista(string, int, int);
     string DFS(int, int);
     string BFS(int, int);
@@ -78,7 +78,7 @@ bool Graph::contains(list<int> ls, int nodo){
 			return false;
 }
 
-void Graph::añadirLista(int u, int v){
+void Graph::addLista(int u, int v){
 	adjLista[v].push_back(u);
 	//adjLista[u].push_back(v);
 	arcosLista++;
@@ -95,7 +95,7 @@ void Graph::cargarLista(string nombre, int a, int b){
 			while (getline(lee, line)){
 				u = stoi(line.substr(1));
 				v = stoi(line.substr(4));
-				añadirLista(u,v);
+				addLista(u,v);
 			}
 			lee.close();
 		} else {
@@ -175,7 +175,7 @@ string Graph::print_ruta(vector<vector <int>> &ruta, int origen, int meta){
 		aux << " " << reverse.top();
 		reverse.pop();
   }
-  //aux << endl;
+  
   return aux.str();
   
 }
@@ -187,7 +187,7 @@ string Graph::print_visitados(list<int> visitados){
     aux << visitados.front() << " ";
     visitados.pop_front();
   }
-  //aux << endl;
+  
   return aux.str();
 }
 #endif /* Graph_H_ */
