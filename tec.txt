@@ -1,0 +1,16 @@
+Acceso_Epigmenio 0
+Acceso_Soriana 1
+Servicios_Escolares 2
+Cafeteria_Central 3
+TEC_Store 4
+Starbucks 5
+Biblioteca 6
+Edificio_IV 7
+Centro_de_Medios 8
+Edificio_V 9
+OXXO 10
+Estacionamiento 11
+Edificio_III 12
+Edificio_II 13
+Centro_de_Bioingenieria 14
+Edificio_I 15

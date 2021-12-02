@@ -7,8 +7,8 @@
  *
 */
 
-#ifndef Graph_H_
-#define Graph_H_
+#ifndef GRAPH_H_
+#define GRAPH_H_
 
 #include <string>
 #include <stdio.h>
@@ -34,23 +34,18 @@ private:
 		//vector<Type> *vect = new vector<Type>
 
 public:
-		void loadGraphMat(string, int, int);
 		Graph(int);
 		Graph();
-		void addEdgeAdjMatrix(int, int);
     void addLista(int, int);
-		string printAdjMat();
     string printadjLista();
     string cerca(int);
 		bool contains(list<int>, int);
 
     //Metodos
     void cargarLista(string, int, int);
-    string DFS(int, int);
     string BFS(int, int);
 
     //Auxiliares
-    string DFS_help(int, int, stack<int>&, list<int>&, vector<vector<int>>&);
     string BFS_help(int, int, queue<int>&, list<int>&, vector<vector<int>>&);
     string print_ruta(vector<vector<int>>&, int, int);
     string print_visitados(list<int>);
@@ -135,7 +130,7 @@ string Graph::BFS(int origen, int meta){
   vector <vector<int>> ruta(nodos, vector<int>(0));
 	qu.push(origen);
   BFS_help(origen, meta, qu, visitados, ruta);
-  //aux << print_visitados(visitados) 
+  //aux << print_visitados(visitados); 
   aux << print_ruta(ruta, origen, meta);
   return aux.str();
 }
