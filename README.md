@@ -56,17 +56,17 @@ En este caso los utilice porque necesitaba asociar a cada lugar del mapa un nume
 
 ## Grafos
 
-**Cargar lista: ** Esta función se basa en una lectura de un archivo por lo que su complejidad es O(n), estos datos se introducen a una lista cuya complejidad es de O(1); la complejidad de la funcion es O(n).
+**Cargar lista:** Esta función se basa en una lectura de un archivo por lo que su complejidad es O(n), estos datos se introducen a una lista cuya complejidad es de O(1); la complejidad de la funcion es O(n).
 
-**Añadir lista: ** Se ingresan las coordenadas y esta las añade en la lista, que en realidad es un vector, este tiene una complejidad de 0(1) ya que se insertan directamente al final con el _pushback()_.
+**Añadir lista:** Se ingresan las coordenadas y esta las añade en la lista, que en realidad es un vector, este tiene una complejidad de 0(1) ya que se insertan directamente al final con el _pushback()_.
 
 **Ver los sitios cerca: ** Al ingresarle un valor parte de la lista, este metodo regresa por medio de un ciclo sus adyacentes, o sea, los valores que estan juntos, a un paso.
 
-**Obtener camino corto: ** Para obtener una ruta corta se utiliza un BFS.
+**Obtener camino corto:** Para obtener una ruta corta se utiliza un BFS.
 
-**Impresiones de rutas: ** Al imprimir se utilizan ciclos que recorren la estructura segun se lo indique.
+**Impresiones de rutas:** Al imprimir se utilizan ciclos que recorren la estructura segun se lo indique.
 
-**Make_pair: ** Construye un objeto par con su primer elemento establecido en x y su segundo elemento establecido en y.
+**Make_pair:** Construye un objeto par con su primer elemento establecido en x y su segundo elemento establecido en y.
 ```
 template <class T1,class T2>
   pair<T1,T2> make_pair (T1 x, T2 y)
@@ -74,7 +74,7 @@ template <class T1,class T2>
     return ( pair<T1,T2>(x,y) );
   }
 ```
-**Fisrt & Second: ** Permite acceder al primer o al segundo elemento de la pareja formada.
+**Fisrt & Second:** Permite acceder al primer o al segundo elemento de la pareja formada.
 ```
 pair (const first_type& a, const second_type& b);
 template<class U, class V> pair (U&& a, V&& b);
