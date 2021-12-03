@@ -54,7 +54,7 @@ En este caso los utilice porque necesitaba asociar a cada lugar del mapa un nume
 
 **Describe cada algoritmo de la estructura (inserción, consulta, etc...) de forma clara y con ejemplos.**
 
-## Grafos
+##### Grafos
 
 **Cargar lista:** Esta función se basa en una lectura de un archivo por lo que su complejidad es O(n), estos datos se introducen a una lista cuya complejidad es de O(1); la complejidad de la funcion es O(n).
 
@@ -65,6 +65,8 @@ En este caso los utilice porque necesitaba asociar a cada lugar del mapa un nume
 **Obtener camino corto:** Para obtener una ruta corta se utiliza un BFS.
 
 **Impresiones de rutas:** Al imprimir se utilizan ciclos que recorren la estructura segun se lo indique.
+  
+##### Pair
 
 **Make_pair:** Construye un objeto par con su primer elemento establecido en x y su segundo elemento establecido en y.
 ```
